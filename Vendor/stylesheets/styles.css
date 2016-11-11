@@ -1,21 +1,12 @@
 
-.pure-u-1-2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-  margin-top: 25px
-}
-/*
- * -- BASE STYLES --
- * Most of these are inherited from Base, but I want to change a few.
- */
 body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
-        background-image: url("../Img/testAfbeelding.jpg");
+      
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: silver;
+        background-color: white;
 }
 
 h1,
@@ -24,6 +15,7 @@ h3,
 h4,
 h5,
 h6,
+p,
 label {
     color: #34495e;
 }
@@ -32,18 +24,26 @@ label {
     max-width: 100%;
     height: auto;
 }
+#middenGip{
+	margin: 1em auto;
+}
+#middenGip2 {
+    font-family: Comic Sans;
+    margin: 1em 0em;
+	margin-top:25px;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
 
 .home-menu {
-    padding: 0px;
-   
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
     background: #2d3e50;
+	box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
-    border-bottom: none;
+    border-bottom: 5px;
 }
 .home-menu .pure-menu-heading {
     color: white;
@@ -69,7 +69,37 @@ label {
         font-size: 16px;
     }
  
-
-
-
-
+ #Centreer{
+ margin-top:2em;
+ 	 text-align:center;
+	 font-family: 'Prociono', serif;
+	 font-size:20px;
+ }
+ .pure-u-1-4{
+	margin-top:2em
+}
+.pure-u-1-2{
+margin-top:2em
+}
+#StageAfbeelding > img{
+    display:block;
+    margin: auto;
+    min-width: 20%;
+    min-height: 20%;
+    height: auto;
+    max-height: 60%;
+    max-width: 60%;
+    width: auto;
+}
+.footer{
+	position:absolute;
+	text-align:center;
+	right: 0;
+    bottom: 0;
+    left: 0;       
+}
+#FooterSpace{
+	  padding : 0;
+    margin : 0;
+    line-height : 5px;
+}
