@@ -92,7 +92,7 @@ margin-top:2em
     width: auto;
 }
 .footer{
-	position:absolute;
+	position:relative;
 	text-align:center;
 	right: 0;
     bottom: 0;
