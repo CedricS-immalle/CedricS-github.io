@@ -7,12 +7,24 @@
 #CentreerTekst {
     text-align:center;
 }
+#Veeltekst{
+	text-align:center;
+	line-height:25px;
+	margin-left:150px;
+	margin-right:150px;
+	font-size:20px;
+	color: black;
+	margin-bottom: 30px;
+}
 #UitlijningRechts
  .pure-u-1-4{
 	margin-top:2em
 }
 .pure-u-1 {
-    text-align: left
+    text-align: left;
+	margin-right: 100px;
+	margin-left: 20px;
+	
     
 }
 
@@ -184,12 +196,10 @@ nav ul ul ul li {
 
 	
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' ▼'; }
+li > a:after { content:  ' ▾'; }
 li > a:only-child:after { content: ''; }
 
 
-/* Media Queries
---------------------------------------------- */
 
 @media all and (max-width : 768px) {
 
