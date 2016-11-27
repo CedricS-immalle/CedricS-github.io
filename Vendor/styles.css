@@ -76,7 +76,12 @@ color: #000;
 }
 
 body {
-	background-color: white;
+	  
+        background-image: url("http://www.publicdomainpictures.net/pictures/130000/velka/grey-gradient-background-1439642315lMp.jpg") ; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0px;
+    
 	font-size:13px;
 	line-height: 1.7em;
 	color: #7f8c8d;
