@@ -204,7 +204,7 @@ nav ul ul ul li {
 }
 
 	
-/* Change ' +' in order to change the Dropdown symbol */
+/* Bij dropdown menu toont nu een ▾ zodat je weet dat het een dropdown menu is. */
 li > a:after { content:  ' ▾'; }
 li > a:only-child:after { content: ''; }
 
@@ -232,7 +232,7 @@ li > a:only-child:after { content: ''; }
 
 	}
 
-	/* Stylinf the toggle lable */
+	/* Styling the toggle lable */
 	.toggle {
 		display: block;
 		background-color: #2d3e50;
@@ -302,7 +302,7 @@ li > a:only-child:after { content: ''; }
 		display: none;
 	}
 		
-	/* Fisrt Tier Dropdown */
+	
 	nav ul ul li {
 		display: block;
 		width: 100%;
@@ -310,7 +310,7 @@ li > a:only-child:after { content: ''; }
 
 	nav ul ul ul li {
 		position: static;
-		/* has to be the same number as the "width" of "nav ul ul li" */ 
+		
 
 	}
 
