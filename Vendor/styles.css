@@ -147,6 +147,7 @@ nav:after {
 	content:"";
 	display:table;
 	clear:both;
+	z-index: 1000;
 }
 
 nav ul {
@@ -162,6 +163,7 @@ nav ul li {
 	display:inline-block;
 	float: left;
 	background-color: #2d3e50;
+	z-index: 1000;
 	}
 
 nav a {
