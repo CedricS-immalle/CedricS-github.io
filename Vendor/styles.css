@@ -6,7 +6,9 @@ b{
 	color:#000000;
 }
 
-
+.progress {
+ margin-left: 25px;
+}
 .MarginText{
 	text-align: left;
 	margin-right: 100px;
